@@ -1,4 +1,4 @@
-🎧⚡ Midori’s Music Shop - C2C Audio Shop 🎸
+⚡ Midori’s Music Shop - C2C Audio Shop ★🎸🎧⋆｡ °⋆
 
 💿 Projeto de e-commerce C2C desenvolvido em PHP, MySQL e CSS estilizado em Frutiger Aero / Nu-Metal, feito por Mirella Fernandes e Rafaela Veloso ☠️
 
