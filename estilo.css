@@ -1,0 +1,210 @@
+/* Importação de fontes com pegada futurista e urbana */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&family=Rajdhani:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Fundo Frutiger Aero: Degradê verde/azul futurista */
+    background: linear-gradient(135deg, #021a11 0%, #083020 50%, #01111a 100%);
+    background-attachment: fixed;
+    color: #e0ffee;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Cabeçalho Cyber-NuMetal */
+header {
+    width: 100%;
+    max-width: 950px;
+    /* Efeito de Vidro (Frutiger Aero Glassmorphism) */
+    background: rgba(8, 40, 25, 0.65);
+    backdrop-filter: blur(12px);
+    border: 2px solid #00ff66;
+    box-shadow: 0 0 20px rgba(0, 255, 102, 0.3), inset 0 0 15px rgba(0, 255, 102, 0.2);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.2rem;
+    color: #00ff66;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* Sombreamento estilo Grafite Neon */
+    text-shadow: 3px 3px 0px #000, 0 0 10px #00ff66;
+    margin-bottom: 8px;
+}
+
+header nav a {
+    color: #a3ffce;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 12px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ffffff;
+    background: rgba(0, 255, 102, 0.2);
+    border-color: #00ff66;
+    box-shadow: 0 0 10px #00ff66;
+}
+
+/* Container de Formulários e Conteúdo */
+main, .container {
+    width: 100%;
+    max-width: 950px;
+}
+
+/* Formulários com estilo Glass + Grafite */
+form {
+    background: rgba(10, 30, 20, 0.75);
+    backdrop-filter: blur(10px);
+    border: 2px solid #00ff66;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 480px;
+    margin: 20px auto;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 255, 102, 0.2);
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 0px #000, 0 0 8px #00ff66;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #a3ffce;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Campos de entrada com visual metálico / transparente */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #00ff66;
+    background: rgba(0, 15, 10, 0.8);
+    color: #00ff66;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    background: rgba(0, 25, 15, 0.95);
+    box-shadow: 0 0 12px #00ff66;
+}
+
+/* Botão com brilho gel/vidro da era 2000 e pegada pesada */
+button {
+    width: 100%;
+    background: linear-gradient(180deg, #00ff66 0%, #009933 100%);
+    color: #000000;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5), inset 0 2px 2px rgba(255, 255, 255, 0.6);
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px #00ff66, inset 0 2px 5px rgba(255, 255, 255, 0.8);
+    background: linear-gradient(180deg, #33ff85 0%, #00cc44 100%);
+}
+
+a {
+    color: #00ff66;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 8px #00ff66;
+}
+
+/* Cards dos Produtos (Estilo Skateboard / Deck & Aero Glass) */
+.vitrine {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.card-produto {
+    background: rgba(5, 25, 15, 0.7);
+    backdrop-filter: blur(8px);
+    border: 2px solid #00ff66;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7), 0 0 10px rgba(0, 255, 102, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-produto:hover {
+    transform: scale(1.03) rotate(-1deg);
+    box-shadow: 0 0 20px #00ff66, 8px 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.card-produto h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.card-produto .preco {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #00ff66;
+    text-shadow: 0 0 8px rgba(0, 255, 102, 0.6);
+    margin: 12px 0;
+}
